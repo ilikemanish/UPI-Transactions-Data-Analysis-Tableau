@@ -159,7 +159,7 @@ Analyzed transaction distribution across different cities.
 
 ## 📷 Dashboard Preview
 
-![UPI Transactions Dashboard](dashboard.png)
+![UPI Transactions Dashboard](dashboard.pdf)
 
 ## 🔗 Project Links
 

@@ -1,49 +1,50 @@
-💳 UPI Transactions Data Analysis | Tableau Dashboard
+# 💳 UPI Transactions Data Analysis | Tableau Dashboard
 
-"Tableau" (https://img.shields.io/badge/Tool-Tableau-blue?logo=tableau)
-"Excel" (https://img.shields.io/badge/Dataset-Microsoft%20Excel-green?logo=microsoftexcel)
-"Domain" (https://img.shields.io/badge/Domain-FinTech-purple)
-"Data Analytics" (https://img.shields.io/badge/Project-Data%20Analytics-orange)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-blue?logo=tableau)
+![Excel](https://img.shields.io/badge/Excel-Dataset-green?logo=microsoftexcel)
+![Domain](https://img.shields.io/badge/Domain-FinTech-purple)
+![Data Analytics](https://img.shields.io/badge/Project-Data%20Analytics-orange)
 
-📌 Project Overview
+## 📌 Project Overview
 
-This project focuses on analyzing UPI transaction data using Tableau to understand payment performance, transaction patterns, customer behavior, and merchant-level trends.
+This project focuses on analyzing UPI transaction data using Tableau to identify payment trends, transaction performance, customer behavior, and merchant-level insights.
 
-The interactive dashboard transforms raw transaction data into meaningful visual insights that help identify successful and failed payments, explore transaction behavior across different cities, and understand payment preferences.
+The main objective is to transform raw transaction data into meaningful business insights through interactive visualizations and dashboards.
 
-🏢 Project Domain
+## 🏢 Project Domain
 
-FinTech | Digital Payments | Banking & Financial Analytics
+**FinTech | Digital Payments | Banking & Financial Analytics**
 
-The project explores digital payment performance and transaction trends to support better understanding of payment operations and customer usage patterns.
-
-🎯 Project Objectives
+## 🎯 Project Objectives
 
 - Analyze overall UPI transaction performance.
-- Identify successful and failed transaction patterns.
-- Understand transaction distribution across different cities.
-- Analyze payment methods and merchant-level trends.
-- Explore customer age-group and device preferences.
-- Compare transaction purposes and receiving banks.
-- Build an interactive Tableau dashboard for data-driven insights.
+- Identify successful and failed transactions.
+- Explore city-wise transaction distribution.
+- Analyze payment methods and merchant performance.
+- Understand customer age-group patterns.
+- Examine bank-wise transaction trends.
+- Build an interactive Tableau dashboard.
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
-Tool| Purpose
-Tableau| Data visualization and interactive dashboard development
-Microsoft Excel| Dataset storage and initial data inspection
-Data Analytics| Transaction analysis and insight generation
-Data Visualization| Charts, KPIs, filters, and geographical analysis
+| Tool | Purpose |
+|---|---|
+| Tableau | Dashboard development and visualization |
+| Microsoft Excel | Dataset storage and data inspection |
+| Data Analytics | Exploratory data analysis |
+| Data Visualization | Charts, KPIs, and interactive filters |
 
-📂 Dataset Information
+## 📂 Dataset Information
 
-- Dataset: UPI Transactions
-- Total Records: 20,000
-- Total Columns: 19
-- Time Period: January 2024 – December 2024
-- File Format: Excel (.xlsx)
+| Attribute | Details |
+|---|---|
+| Dataset | UPI Transactions |
+| Total Records | 20,000 |
+| Total Columns | 19 |
+| Time Period | January 2024 – December 2024 |
+| File Format | Excel (.xlsx) |
 
-Key Analysis Dimensions
+### Dataset Features
 
 - Transaction ID
 - Transaction Date
@@ -58,81 +59,78 @@ Key Analysis Dimensions
 - Transaction Purpose
 - Merchant
 
-📊 Key Performance Indicators (KPIs)
+## 📊 Key Performance Indicators
 
-KPI| Result
-Total Transactions| 20,000
-Successful Transactions| 16,000
-Failed Transactions| 4,000
-Success Rate| 80%
-Failure Rate| 20%
-Cities Analyzed| 4
+| KPI | Value |
+|---|---:|
+| Total Transactions | 20,000 |
+| Successful Transactions | 16,000 |
+| Failed Transactions | 4,000 |
+| Success Rate | 80% |
+| Failure Rate | 20% |
+| Cities Analyzed | 4 |
 
-🔍 Analysis Performed
+## 🔍 Analysis Performed
 
-1. Transaction Status Analysis
+### 1. Transaction Status Analysis
+- Successful vs. failed transactions.
+- Transaction success rate.
+- Transaction failure rate.
 
-- Compared successful and failed transactions.
-- Calculated overall transaction success and failure rates.
-- Identified differences in payment outcomes.
+### 2. City-Wise Analysis
+- Delhi
+- Mumbai
+- Bangalore
+- Hyderabad
 
-2. City-Wise Analysis
+Analyzed transaction distribution across different cities.
 
-- Analyzed transactions across Delhi, Mumbai, Bangalore, and Hyderabad.
-- Explored geographical transaction distribution.
-- Compared transaction patterns across cities.
+### 3. Payment Method Analysis
+- Compared different payment methods.
+- Explored payment preferences.
+- Analyzed merchant-level transaction patterns.
 
-3. Payment Method Analysis
+### 4. Customer Age Analysis
+- Analyzed customer age groups.
+- Explored transaction distribution by age.
 
-- Examined transaction patterns across different payment methods.
-- Compared payment methods and merchant categories.
-- Explored customer payment preferences.
+### 5. Merchant Analysis
+- Compared merchant-level transaction patterns.
+- Examined successful and failed payment outcomes.
 
-4. Customer Age-Group Analysis
+### 6. Bank-Wise Analysis
+- Analyzed receiving banks.
+- Explored bank-level transaction distribution.
 
-- Analyzed transaction distribution across customer age groups.
-- Explored customer activity patterns.
+### 7. Device & Purpose Analysis
+- Examined device types.
+- Analyzed transaction purposes.
+- Explored customer payment behavior.
 
-5. Merchant Analysis
+## 💡 Key Insights
 
-- Examined transaction patterns across different merchants.
-- Compared merchant-level payment outcomes.
-
-6. Device & Purpose Analysis
-
-- Explored transactions by device type.
-- Analyzed transaction purposes and payment behavior.
-
-7. Bank-Wise Analysis
-
-- Explored transaction distribution by receiving bank.
-- Used bank-level filtering for interactive analysis.
-
-💡 Key Insights
-
-- The dataset contains 20,000 transactions across four cities.
+- The dataset contains 20,000 transaction records.
 - Overall transaction success rate is 80%.
-- Failed transactions account for 20% of the dataset.
-- Each of the four cities contains 5,000 transaction records.
-- The dataset covers a full calendar year, from January to December 2024.
-- In this dataset, all recorded Flipkart transactions are marked as failed, while the recorded Amazon, IRCTC, Swiggy, and Zomato transactions are marked as successful.
+- Transaction failure rate is 20%.
+- Four cities are included in the analysis.
+- Each city contains 5,000 transaction records.
+- The dataset covers January to December 2024.
+- All Flipkart records are marked as failed in this dataset.
 
-«Note: These findings describe the supplied dataset only. They should not be treated as actual industry-wide UPI statistics.»
+**Note:** These insights describe the supplied dataset and should not be interpreted as actual industry-wide UPI statistics.
 
-📈 Tableau Dashboard Features
+## 📈 Dashboard Features
 
-- Interactive KPI overview
-- Transaction success and failure analysis
-- City-wise geographical visualization
-- Payment method and merchant comparison
-- Customer age-group analysis
-- Dynamic filters and slicers
-- Bank-wise transaction exploration
-- Device type and payment purpose analysis
+- Interactive KPI Cards
+- Transaction Status Analysis
+- City-Wise Geographical Analysis
+- Payment Method Analysis
+- Merchant-Level Analysis
+- Customer Age-Group Analysis
+- Bank-Wise Analysis
+- Dynamic Filters and Slicers
 
-🎛️ Dashboard Filters
-
-The dashboard provides interactive filters for:
+## 🎛️ Interactive Filters
 
 - Receiving Bank
 - Currency
@@ -140,50 +138,49 @@ The dashboard provides interactive filters for:
 - Payment Mode
 - Transaction Purpose
 
-💼 Business Recommendations
+## 💼 Business Recommendations
 
-1. Investigate failed transaction patterns to identify possible payment issues.
+1. Investigate failed transaction patterns.
 2. Monitor merchant-level payment performance.
-3. Analyze bank-wise transaction outcomes to identify areas for further investigation.
-4. Improve payment reliability through continuous transaction monitoring.
-5. Use customer and device insights to improve the digital payment experience.
+3. Analyze bank-wise transaction outcomes.
+4. Improve payment reliability.
+5. Use customer behavior insights to improve digital payment experiences.
 
-⚙️ Project Workflow
+## ⚙️ Project Workflow
 
-1. Collected and explored the UPI transaction dataset.
-2. Inspected the dataset structure and available fields.
-3. Connected the Excel dataset to Tableau.
-4. Created calculated measures and visualizations.
-5. Developed interactive charts and filters.
-6. Analyzed transaction patterns and identified key findings.
-7. Designed the final Tableau dashboard.
+1. Dataset Collection
+2. Data Exploration
+3. Data Inspection
+4. Excel Data Connection with Tableau
+5. Data Analysis
+6. KPI Development
+7. Dashboard Creation
+8. Business Insights Generation
 
-📷 Dashboard Preview
-
-Add your Tableau dashboard screenshot here:
+## 📷 Dashboard Preview
 
 ![UPI Transactions Dashboard](dashboard.png)
 
-🔗 Project Links
+## 🔗 Project Links
 
-- GitHub Repository: Add your repository URL here.
-- Tableau Public Dashboard: Add your published dashboard URL here.
-- Portfolio: https://portfolio-ci5f.vercel.app/
+- **GitHub Repository:** Add your repository URL.
+- **Tableau Public Dashboard:** Add your Tableau Public URL.
+- **Portfolio:** https://portfolio-ci5f.vercel.app/
 
-📚 Skills Demonstrated
+## 📚 Skills Demonstrated
 
-- Data Analysis
+- Data Analytics
+- Tableau
 - Data Visualization
-- Tableau Dashboard Development
-- KPI Analysis
 - Exploratory Data Analysis (EDA)
+- KPI Analysis
 - Business Intelligence
-- Interactive Dashboard Design
+- Interactive Dashboard Development
 - Data-Driven Decision Making
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Manish Kashyap
+**Manish Kashyap**
 
 Aspiring Data Analyst | Excel | SQL | Power BI | Tableau | Python
 
@@ -192,6 +189,6 @@ Aspiring Data Analyst | Excel | SQL | Power BI | Tableau | Python
 
 ---
 
-⭐ If you find this project interesting, consider giving the repository a star!
+⭐ If you find this project useful, don't forget to star the repository!
 
-Turning Transaction Data into Meaningful Insights! 🚀
+**Turning Raw Data into Meaningful Insights! 🚀**
